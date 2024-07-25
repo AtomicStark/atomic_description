@@ -13,3 +13,5 @@ build :
 启动：
  1. 在项目文件夹 /root/atomic_dapp/depoly/nodeServer pm2 start client.js
  2. 在文件夹 /root/atomic_dapp/depoly/relayServer/server/ pm2 start relay.js
+
+ 服务器如果无法访问则使用pm2 restart命令，重启服务器。如果磁盘占满了需要用pm2 flush明令进行日志的清除
